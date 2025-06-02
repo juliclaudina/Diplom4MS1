@@ -27,7 +27,7 @@ const Portada = () => {
 
   return (
     <section
-      className="bg-cover bg-center min-h-screen text-white px-8 py-16"
+      className="bg-cover bg-center bg-fixed min-h-screen text-white px-8 py-16"
       style={{ backgroundImage: `url('/fondo_CampoPiedraPomez.jpg')` }}
     >
       <div className="max-w-5xl mx-auto text-center font-sans">

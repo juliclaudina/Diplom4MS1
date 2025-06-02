@@ -112,7 +112,7 @@ function Navbar() {
 
       {/* View Mobile */}
       <div
-        className={`md:hidden  bg-gray-800 transition-all duration-300 ${
+        className={`md:hidden absolute w-full bg-gray-800 transition-all duration-300 ${
           isOpen ? "opacity-100" : "opacity-0"
         }`}
       >
